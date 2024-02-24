@@ -23,7 +23,12 @@
     overflow: hidden;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
     text-align: justify;
+    transition: transform .2s ease-in;
 
+}
+
+.project:hover{
+    transform: translateY(-10px);
 }
 
 .project-image{
@@ -62,6 +67,11 @@
     font-size: 2rem;
     color: #515151;
     margin-right: 1rem;
+}
+
+
+.project-link a:hover{
+    color: #333;
 }
   
 
