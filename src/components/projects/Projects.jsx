@@ -25,13 +25,15 @@ const Projects = () => {
                 href="https://github.com/Aakash-Rajbhar/Recipe-Website.git"
                 target="_blank"
               >
-                <i class='bx bxl-github'></i>
+                <i class="bx bxl-github"></i>
+                <span className="project-link-tag">Github Code</span>
               </a>
               <a
                 href="https://aakash-rajbhar.github.io/Recipe-Website"
                 target="_blank"
               >
-                <i class='bx bx-link-alt' ></i>
+                <i class="bx bx-link-alt"></i>
+                <span className="project-link-tag">Live Demo</span>
               </a>
             </div>
           </div>
@@ -42,22 +44,24 @@ const Projects = () => {
             <h3 className="project-heading">Nike-Home-Page</h3>
             <h4 className="project-tools">Reactjs, Tailwind CSS</h4>
             <p className="project-desc">
-              It is created with react-vite with tailwind CSS to replicate the
-              front-end of the Nike's official website. It is fully responsive
-              for multiple screens.
+              Nike Home Page is created with react-vite with tailwind CSS to
+              replicate the front-end of the Nike's official website. It is
+              fully responsive for multiple screens.
             </p>
             <div class="project-link">
               <a
                 href="https://github.com/Aakash-Rajbhar/Nike-Landing-Page.git"
                 target="_blank"
               >
-                <i class='bx bxl-github'></i>
+                <i class="bx bxl-github"></i>
+                <span className="project-link-tag">Github Code</span>
               </a>
               <a
                 href="https://aakash-rajbhar.github.io/Nike-Landing-Page/"
                 target="_blank"
               >
-                <i class='bx bx-link-alt' ></i>
+                <i class="bx bx-link-alt"></i>
+                <span className="project-link-tag">Live Demo</span>
               </a>
             </div>
           </div>
@@ -77,13 +81,15 @@ const Projects = () => {
                 href="https://github.com/Aakash-Rajbhar/Blog-Website.git"
                 target="_blank"
               >
-                <i class='bx bxl-github'></i>
+                <i class="bx bxl-github"></i>
+                <span className="project-link-tag">Github Code</span>
               </a>
               <a
                 href="https://aakash-rajbhar.github.io/Blog-Website"
                 target="_blank"
               >
-                <i class='bx bx-link-alt' ></i>
+                <i class="bx bx-link-alt"></i>
+                <span className="project-link-tag">Live Demo</span>
               </a>
             </div>
           </div>
