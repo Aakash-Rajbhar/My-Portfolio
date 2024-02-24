@@ -97,7 +97,7 @@
     }
 
     .project-heading{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .project-tools{
@@ -112,10 +112,6 @@
 
     .project{
         min-height: 420px;
-    }
-
-    .project-heading{
-        font-size: 1.2rem;
     }
 
     .project-tools{
