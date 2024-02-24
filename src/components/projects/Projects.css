@@ -1,0 +1,133 @@
+.projects{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.project{
+    /* background-color: blueviolet; */
+    max-width: 400px;
+    min-height: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    text-align: justify;
+
+}
+
+.project-image{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+}
+
+.project-details{
+    padding: .5rem 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.project-heading{
+    font-size: var(--h3-font-size);
+    line-height: 1.5;
+}
+
+.project-tools{
+    font-size: var(--small-font-size);
+    margin-bottom: 1rem;
+    font-weight: var(--font-medium);
+}
+
+.project-desc{
+    font-size: var(--normal-font-size);
+}
+
+.project-link {
+    display: flex;
+    padding: 15px 0 0 0;
+  }
+
+.project-link a{
+    font-size: 2rem;
+    color: #515151;
+    margin-right: 1rem;
+}
+  
+
+
+
+
+
+
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .projects-list{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    
+  }
+  
+  @media screen and (max-width: 576px) {
+    .projects-list{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .project-heading{
+        font-size: 1.5rem;
+    }
+
+    .project-tools{
+        font-size: 1rem;
+    }
+
+    
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+
+    .project{
+        min-height: 420px;
+    }
+
+    .project-heading{
+        font-size: 1.2rem;
+    }
+
+    .project-tools{
+        font-size: .9rem;
+    }
+
+    .project-desc{
+        font-size: 0.8rem;
+    }
+
+    .project-link a{
+        font-size: 1.8rem;
+    }
+    
+  }
