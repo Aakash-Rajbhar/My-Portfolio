@@ -10,7 +10,7 @@ const Projects = () => {
       <h2 className="section__title">Projects</h2>
       <span className="section__subtitle">Some of My Work</span>
       <div className="projects-list container">
-        <div className="project">
+        <div className="project" data-aos='flip-left' data-aos-duration='600'>
           <img src={project_1} alt="" className="project-img" />
           <div className="project-details">
             <h3 className="project-heading">Recipe Website</h3>
@@ -38,7 +38,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div class="project">
+        <div class="project" data-aos='flip-right' data-aos-duration='600'>
           <img class="project-image" src={project_2} alt="" />
           <div class="project-details">
             <h3 className="project-heading">Nike-Home-Page</h3>
@@ -66,7 +66,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div class="project">
+        <div class="project" data-aos='flip-left' data-aos-duration='600'>
           <img class="project-image" src={project_3} alt="" />
           <div class="project-details">
             <h3 className="project-heading">Blog Website</h3>

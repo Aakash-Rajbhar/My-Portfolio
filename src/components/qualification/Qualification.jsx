@@ -48,8 +48,8 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
-            <div className="qualification__data">
-              <div>
+            <div className="qualification__data" >
+              <div data-aos='fade-up'>
                 <h3 className="qualification__title">
                   Bachelor's in Technology - IT
                 </h3>
@@ -66,14 +66,14 @@ const Qualification = () => {
               </div>
             </div>
 
-            <div className="qualification__data">
+            <div className="qualification__data"  >
               <div></div>
 
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-              <div>
+              <div data-aos='fade-up' data-aos-delay='200'>
                 <h3 className="qualification__title">High School - PCM</h3>
                 <span className="qualification__subtitle">
                   Govt Boys Senior Secondary School Kalkaji, New Delhi
@@ -93,7 +93,7 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
-              <div>
+              <div data-aos='fade-up'>
                 <h3 className="qualification__title">Web Development</h3>
                 <span className="qualification__subtitle">
                   Guru Gobind Singh Indrapratha University
@@ -115,7 +115,7 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-              <div>
+              <div data-aos='fade-up' data-aos-delay='200'>
                 <h3 className="qualification__title">
                   Data Structures & Algorithms
                 </h3>
@@ -129,7 +129,7 @@ const Qualification = () => {
             </div>
 
             <div className="qualification__data">
-              <div>
+              <div data-aos='fade-up' data-aos-delay='400'>
                 <h3 className="qualification__title">Java Programming</h3>
                 <span className="qualification__subtitle">
                   Guru Gobind Singh Indrapratha University
@@ -151,7 +151,7 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-              <div>
+              <div data-aos='fade-up' data-aos-delay='600'>
                 <h3 className="qualification__title">Web Design</h3>
                 <span className="qualification__subtitle">
                   Guru Gobind Singh Indraprastha University

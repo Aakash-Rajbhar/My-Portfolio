@@ -11,6 +11,15 @@ import Footer from "./components/footer/Footer.jsx";
 import ScrollUp from "./components/scrollup/ScrollUp.jsx";
 import Projects from "./components/projects/Projects.jsx";
 
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init({
+  duration: 400,
+  offset: 100,
+  easing: "ease-in-sine",
+});
+
 function App() {
   const [count, setCount] = useState(0);
 

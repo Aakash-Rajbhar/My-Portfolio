@@ -15,7 +15,7 @@ const Services = () => {
       <span className="section__subtitle">What I Offer</span>
 
       <div className="services__container container grid">
-        <div className="services__content">
+        <div className="services__content" data-aos='fade-up'>
           <i className="uil uil-web-grid services__icon"></i>
           <h3 className="services__title">
             Web <br /> Development
@@ -84,7 +84,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="services__content">
+        <div className="services__content" data-aos='fade-up' data-aos-delay='200'>
           <i className="uil uil-arrow services__icon"></i>
           <h3 className="services__title">
             Web <br /> Design
@@ -148,7 +148,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="services__content">
+        <div className="services__content" data-aos='fade-up' data-aos-delay='400'>
           <i className="uil uil-edit services__icon"></i>
           <h3 className="services__title">
             Graphic <br /> Design
